@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/search_client"
+        android:title="Search client"
+        android:showAsAction="ifRoom"
+        android:src="@drawable/search_bar"
+        android:background="@color/white"
+        android:actionViewClass="android.widget.SearchView"/>
+
+    <item android:id="@+id/add"
+        android:icon="@drawable/icon_grey"
+        android:title="Add client"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/edit"
+        android:title="Editar"
+        android:icon="@drawable/icon_edit"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/delete"
+        android:icon="@drawable/icon_trash"
+        android:title="Delete client"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/save"
+        android:title="Guardar"
+        android:icon="@drawable/icon_grey"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/discard"
+        android:title="Cancelar"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:showAsAction="ifRoom" />
+
+</menu>

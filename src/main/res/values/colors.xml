@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawer_background">#242827</color>
+    <color name="drawer_item_selected">#363736</color>
+    <color name="red">#da3f2c</color>
+    <color name="dimmed_red">#80da3f2c</color>
+    <color name="white">#fcfcfc</color>
+    <color name="top_bar_background">#aaada9</color>
+    <color name="dimmed_white">#80ffffff</color>
+    <color name="dark_background">#262827</color>
+    <color name="list_item_selected">#f5c27e</color>
+</resources>

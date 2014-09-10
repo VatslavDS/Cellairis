@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/dark_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <ImageButton
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/transparent_button_background_simple"
+                android:src="@drawable/icon_correct"/>
+
+            <ImageButton
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/transparent_button_background_simple"
+                android:src="@drawable/icon_close"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/client"/>
+
+        <EditText
+            android:id="@+id/client_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/client_name_hint"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/client_rfc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/client_rfc_hint"
+            android:textColor="@color/white"
+            android:inputType="textCapCharacters"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:text="@string/contact"/>
+
+        <EditText
+            android:id="@+id/client_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:hint="@string/client_phone_hint"/>
+
+        <EditText
+            android:id="@+id/client_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:hint="@string/client_email_hint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:text="@string/address"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/client_zip_code"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:maxLength="5"
+                android:hint="@string/client_address_zip_code"
+                android:textColor="@color/white"
+                android:inputType="numberDecimal"
+                android:nextFocusDown="@+id/client_country"/>
+
+            <EditText
+                android:id="@+id/client_country"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/client_address_country"
+                android:textColor="@color/white"
+                android:inputType="textPersonName"
+                android:nextFocusDown="@+id/client_city"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/client_city"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/client_address_city"
+                android:textColor="@color/white"
+                android:inputType="textPersonName"
+                android:nextFocusDown="@+id/client_state"/>
+
+            <EditText
+                android:id="@+id/client_state"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/client_address_state"
+                android:textColor="@color/white"
+                android:inputType="textPersonName"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/client_address_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/client_address_1_hint"
+            android:textColor="@color/white"
+            android:inputType="textPostalAddress"/>
+
+        <EditText
+            android:id="@+id/client_address_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/client_address_2_hint"
+            android:textColor="@color/white"
+            android:inputType="textPostalAddress"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:text="@string/comments"/>
+
+        <EditText
+            android:id="@+id/client_comments"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textColor="@color/white"
+            android:hint="@string/client_comments_hint"/>
+
+    </LinearLayout>
+
+</ScrollView>

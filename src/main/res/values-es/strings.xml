@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="action_example">Accion de ejemplo</string>
+    <string name="action_settings">Opciones</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="total">Total</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="error_invalid_email">El usuario no es válido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Completa este campo</string>
+    <string name="logging_in">Iniciando sesión&#8230;</string>
+    <string name="log_in">Entrar</string>
+    <string name="client">Cliente</string>
+    <string name="client_address_1_hint">Dirección 1</string>
+    <string name="client_address_2_hint">Dirección 2</string>
+    <string name="client_address_city">Ciudad</string>
+    <string name="client_address_country">País</string>
+    <string name="client_address_state">Estado</string>
+    <string name="client_address_zip_code">Código postal</string>
+    <string name="client_comments_hint">Agrega un comentario</string>
+    <string name="client_email_hint">Correo electronico</string>
+    <string name="client_name_hint">Nombre</string>
+    <string name="client_phone_hint">Teléfono</string>
+    <string name="client_rfc_hint">RFC</string>
+    <string name="comments">Comentarios</string>
+    <string name="contact">Contacto</string>
+    <string name="finish_sale">Finalizar</string>
+    <string name="tax">I.V.A.</string>
+    <string name="search">Buscar</string>
+    <string name="buy">Comprar</string>
+    <string name="address">Dirección</string>
+    <string name="email_receipt">Enviar por e-mail</string>
+    <string name="from">Desde</string>
+    <string name="print">Imprimir</string>
+    <string name="receipt_header_list_amount">Importe</string>
+    <string name="receipt_header_list_description">Descripción</string>
+    <string name="receipt_header_list_price">Precio</string>
+    <string name="receipt_header_list_sku">SKU</string>
+    <string name="receipt_header_list_quantity">Cantidad</string>
+    <string name="to">Hasta</string>
+    <string name="receipt_items_total">artículos</string>
+    <string name="client_spinner_hint">Selecciona un cliente &#8230;</string>
+    <string name="receipt_saved">Recibo guardado</string>
+    <string name="client_saved">Cliente guardado</string>
+    <string name="add_client">Nuevo</string>
+    <string name="exit_confirmation">Para salir, presiona el botón atrás una vez más</string>
+    <string name="no_clients_on_list">Aún no tienes clientes. ¿Porque no agregas uno?</string>
+    <string name="no_payments_on_list">Aún no hay ventas registradas</string>
+    <string name="no_products_on_list">Aún no hay productos registrados</string>
+    <string name="no_sales_on_list">Agrega productos a la lista de compras</string>
+
+    <!--Error messages-->
+    <string name="error_empty_field">Llena este campo</string>
+    <string name="error_invalid_email_address">Verifica la dirección de correo</string>
+    <string name="error_invalid_zip_code">Verifica el código postal</string>
+
+    <!-- string for Logout dialog -->
+    <string name="title_dialog_logout">Salida</string>
+    <string name="body_dialog_logout">¿Estas seguro que deseas salir?</string>
+    <string name="yes_button_dialog">Si</string>
+    <string name="no_buttton_dialog">No</string>
+
+</resources>

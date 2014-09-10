@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- name of the app and other intersting resources -->
+    <string name="app_name" translatable="false">POS CELLAIRIS</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- strings for login included validation and other -->
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="error_invalid_email">This user address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="logging_in">Logging in&#8230;</string>
+    <string name="log_in">Enter</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- string for client section  the info of the form-->
+    <string name="client">Client</string>
+    <string name="client_name_hint">Name</string>
+    <string name="client_rfc_hint">TIN</string>
+    <string name="contact">Contact</string>
+    <string name="client_phone_hint">Phone</string>
+    <string name="client_email_hint">Email</string>
+    <string name="address">Address</string>
+    <string name="client_address_zip_code">ZIP code</string>
+    <string name="client_address_country">Country</string>
+    <string name="client_address_city">City</string>
+    <string name="client_address_state">State</string>
+    <string name="client_address_1_hint">Address 1</string>
+    <string name="client_address_2_hint">Address 2</string>
+    <string name="comments">Comments</string>
+    <string name="client_comments_hint">Add a comment</string>
+
+    <!-- String for sales, total, subtotal, tax and finish -->
+    <string name="total">Total</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">TAX</string>
+    <string name="finish_sale">Finish</string>
+    <string name="search">Search</string>
+
+    <!-- String for info of receipt -->
+    <string name="buy">Buy</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="email_receipt">Send on an e-mail</string>
+    <string name="print">Print</string>
+    <string name="receipt_header_list_quantity">Quantity</string>
+    <string name="receipt_header_list_sku">SKU</string>
+    <string name="receipt_header_list_description">Description</string>
+    <string name="receipt_header_list_price">Price</string>
+    <string name="receipt_header_list_amount">Amount</string>
+    <string name="receipt_items_total">items</string>
+    <string name="client_spinner_hint">Select a client &#8230;</string>
+    <string name="receipt_saved">Receipt saved</string>
+    <string name="client_saved">Client saved</string>
+    <!-- other string utils -->
+    <string name="add_client">New</string>
+    <string name="exit_confirmation">To leave the app, press back again</string>
+    <string name="no_clients_on_list">You don\'t have any clients yet. Why don\'t you add some?</string>
+    <string name="no_payments_on_list">No sales registered yet</string>
+    <string name="no_products_on_list">No products registered yet</string>
+    <string name="no_sales_on_list">Add some products to the shopping list</string>
+
+    <!--Error messages-->
+    <string name="error_empty_field">Complete this field</string>
+    <string name="error_invalid_email_address">Verify the email address</string>
+    <string name="error_invalid_zip_code">Verify the zip code</string>
+
+    <!-- name of services and other stuff -->
+    <string name="service_name" translatable="false">HttpRequest</string>
+
+    <!-- string for Logout dialog -->
+    <string name="title_dialog_logout">Exit</string>
+    <string name="body_dialog_logout">Are you sure you want to exit and logout?</string>
+    <string name="yes_button_dialog">Yes</string>
+    <string name="no_buttton_dialog">No</string>
+
+    <!-- string for map -->
+    <string name="title_marker" translatable="false">Address of Customer</string>
+
+</resources>

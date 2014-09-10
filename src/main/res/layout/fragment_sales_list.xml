@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="@drawable/fragments_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#4d4e53">
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/transparent_button_background_simple"
+            android:src="@drawable/icon_trash"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/sales_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/no_sales_on_list"
+            android:drawableTop="@drawable/empty_box"
+            android:drawablePadding="8dp"
+            android:textSize="30sp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/subtotal"/>
+
+        <TextView
+            android:id="@+id/sale_subtotal"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:gravity="right"
+            android:paddingRight="8dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/tax"/>
+
+        <TextView
+            android:id="@+id/sale_tax"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:gravity="right"
+            android:paddingRight="8dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/total"/>
+
+        <TextView
+            android:id="@+id/sale_total"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:gravity="right"
+            android:paddingRight="8dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="60"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/finish_sale_button"
+            android:layout_width="0dp"
+            android:layout_weight="40"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:enabled="false"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:text="@string/finish_sale"/>
+
+    </LinearLayout>
+
+</LinearLayout>

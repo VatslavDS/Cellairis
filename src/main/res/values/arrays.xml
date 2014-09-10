@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_titles">
+        <item>Sales</item>
+        <item>Catalog</item>
+        <item>Payment history</item>
+        <item>Clients</item>
+        <item>Settings</item>
+        <item>Log out</item>
+    </string-array>
+</resources>
